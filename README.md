@@ -55,4 +55,5 @@ This project is a Node.js application using PostgreSQL as the database. The stac
 ### Documentation
 
 1. Postman [Download Here](https://drive.google.com/file/d/14O3vyN0T984nDjHDlhIisp2_GGMn0hIO/view?usp=sharing).
-2. PDF Documentation [PDF](https://www.postgresql.org/download/).
+2. PDF Documentation [PDF](https://drive.google.com/file/d/1mUSz4Aav3VmDJgCTxIGqZyFOZiCW-wsF/view?usp=sharing).
+3. Diagram [Download Here](https://drive.google.com/drive/folders/1UfuCw42Ae1HBEUJ0ELLYYEgzcGSPHEKr?usp=sharing)
