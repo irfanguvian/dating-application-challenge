@@ -1,0 +1,28 @@
+{
+    "compilerOptions": {
+      "allowSyntheticDefaultImports": true,
+      "alwaysStrict": true,
+      "module": "NodeNext",
+      "moduleResolution": "NodeNext",
+      "outDir": "build",
+      "sourceMap": true,
+      "strictNullChecks": true,
+      "target": "ESNext",
+      "allowJs": true,
+      "skipLibCheck": true,
+      "esModuleInterop": true,
+      "lib": [
+        "esnext", "dom"
+      ],
+      "baseUrl": "src",
+      "paths": {
+        "*": [
+          "*"
+        ]
+      }
+    },
+    "include": [
+      "src/**/*"
+    ],
+    
+  }
