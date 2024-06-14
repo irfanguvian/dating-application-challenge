@@ -75,27 +75,26 @@ CREATE TABLE public.swipe_history (
 
 
 -- Insert data into public.user
-INSERT INTO public.user (username, password, created_at, login_at) VALUES
-('user1', '$2a$12$qO3lclk3/AxutABhflvfBehURJNdxjJ/NIn5plZ9ADMFPdGP.rH3W', '2023-06-01 10:00:00', '2023-06-10 12:00:00'),
-('user2', '$2a$12$qO3lclk3/AxutABhflvfBehURJNdxjJ/NIn5plZ9ADMFPdGP.rH3W', '2023-06-02 11:00:00', '2023-06-11 13:00:00'),
-('user3', '$2a$12$qO3lclk3/AxutABhflvfBehURJNdxjJ/NIn5plZ9ADMFPdGP.rH3W', '2023-06-03 12:00:00', '2023-06-12 14:00:00'),
-('user4', '$2a$12$qO3lclk3/AxutABhflvfBehURJNdxjJ/NIn5plZ9ADMFPdGP.rH3W', '2023-06-04 13:00:00', '2023-06-13 15:00:00'),
-('user5', '$2a$12$qO3lclk3/AxutABhflvfBehURJNdxjJ/NIn5plZ9ADMFPdGP.rH3W', '2023-06-05 14:00:00', '2023-06-14 16:00:00'),
-('user6', '$2a$12$qO3lclk3/AxutABhflvfBehURJNdxjJ/NIn5plZ9ADMFPdGP.rH3W', '2023-06-06 15:00:00', '2023-06-15 17:00:00'),
-('user7', '$2a$12$qO3lclk3/AxutABhflvfBehURJNdxjJ/NIn5plZ9ADMFPdGP.rH3W', '2023-06-07 16:00:00', '2023-06-16 18:00:00'),
-('user8', '$2a$12$qO3lclk3/AxutABhflvfBehURJNdxjJ/NIn5plZ9ADMFPdGP.rH3W', '2023-06-08 17:00:00', '2023-06-17 19:00:00'),
-('user9', '$2a$12$qO3lclk3/AxutABhflvfBehURJNdxjJ/NIn5plZ9ADMFPdGP.rH3W', '2023-06-09 18:00:00', '2023-06-18 20:00:00'),
-('user10', '$2a$12$qO3lclk3/AxutABhflvfBehURJNdxjJ/NIn5plZ9ADMFPdGP.rH3W', '2023-06-10 19:00:00', '2023-06-19 21:00:00'),
-('user11', '$2a$12$qO3lclk3/AxutABhflvfBehURJNdxjJ/NIn5plZ9ADMFPdGP.rH3W', '2023-06-11 20:00:00', '2023-06-20 22:00:00'),
-('user12', '$2a$12$qO3lclk3/AxutABhflvfBehURJNdxjJ/NIn5plZ9ADMFPdGP.rH3W', '2023-06-12 21:00:00', '2023-06-21 23:00:00'),
-('user13', '$2a$12$qO3lclk3/AxutABhflvfBehURJNdxjJ/NIn5plZ9ADMFPdGP.rH3W', '2023-06-13 22:00:00', '2023-06-22 00:00:00'),
-('user14', '$2a$12$qO3lclk3/AxutABhflvfBehURJNdxjJ/NIn5plZ9ADMFPdGP.rH3W', '2023-06-14 23:00:00', '2023-06-23 01:00:00'),
-('user15', '$2a$12$qO3lclk3/AxutABhflvfBehURJNdxjJ/NIn5plZ9ADMFPdGP.rH3W', '2023-06-15 00:00:00', '2023-06-24 02:00:00'),
-('user16', '$2a$12$qO3lclk3/AxutABhflvfBehURJNdxjJ/NIn5plZ9ADMFPdGP.rH3W', '2023-06-16 01:00:00', '2023-06-25 03:00:00'),
-('user17', '$2a$12$qO3lclk3/AxutABhflvfBehURJNdxjJ/NIn5plZ9ADMFPdGP.rH3W', '2023-06-17 02:00:00', '2023-06-26 04:00:00'),
-('user18', '$2a$12$qO3lclk3/AxutABhflvfBehURJNdxjJ/NIn5plZ9ADMFPdGP.rH3W', '2023-06-18 03:00:00', '2023-06-27 05:00:00'),
-('user19', '$2a$12$qO3lclk3/AxutABhflvfBehURJNdxjJ/NIn5plZ9ADMFPdGP.rH3W', '2023-06-19 04:00:00', '2023-06-28 06:00:00'),
-('user20', '$2a$12$qO3lclk3/AxutABhflvfBehURJNdxjJ/NIn5plZ9ADMFPdGP.rH3W', '2023-06-20 05:00:00', '2023-06-29 07:00:00');
+INSERT INTO public."user" (username, "password", created_at, login_at) VALUES('alice.johnson3@example.com', '$2a$12$qO3lclk3/AxutABhflvfBehURJNdxjJ/NIn5plZ9ADMFPdGP.rH3W', '2023-06-03 12:00:00.000', '2023-06-12 14:00:00.000');
+INSERT INTO public."user" (username, "password", created_at, login_at) VALUES('bob.brown4@example.com', '$2a$12$qO3lclk3/AxutABhflvfBehURJNdxjJ/NIn5plZ9ADMFPdGP.rH3W', '2023-06-04 13:00:00.000', '2023-06-13 15:00:00.000');
+INSERT INTO public."user" (username, "password", created_at, login_at) VALUES('charlie.davis5@example.com', '$2a$12$qO3lclk3/AxutABhflvfBehURJNdxjJ/NIn5plZ9ADMFPdGP.rH3W', '2023-06-05 14:00:00.000', '2023-06-14 16:00:00.000');
+INSERT INTO public."user" (username, "password", created_at, login_at) VALUES('david.martinez6@example.com', '$2a$12$qO3lclk3/AxutABhflvfBehURJNdxjJ/NIn5plZ9ADMFPdGP.rH3W', '2023-06-06 15:00:00.000', '2023-06-15 17:00:00.000');
+INSERT INTO public."user" (username, "password", created_at, login_at) VALUES('eva.garcia7@example.com', '$2a$12$qO3lclk3/AxutABhflvfBehURJNdxjJ/NIn5plZ9ADMFPdGP.rH3W', '2023-06-07 16:00:00.000', '2023-06-16 18:00:00.000');
+INSERT INTO public."user" (username, "password", created_at, login_at) VALUES('frank.wilson8@example.com', '$2a$12$qO3lclk3/AxutABhflvfBehURJNdxjJ/NIn5plZ9ADMFPdGP.rH3W', '2023-06-08 17:00:00.000', '2023-06-17 19:00:00.000');
+INSERT INTO public."user" (username, "password", created_at, login_at) VALUES('grace.moore9@example.com', '$2a$12$qO3lclk3/AxutABhflvfBehURJNdxjJ/NIn5plZ9ADMFPdGP.rH3W', '2023-06-09 18:00:00.000', '2023-06-18 20:00:00.000');
+INSERT INTO public."user" (username, "password", created_at, login_at) VALUES('hank.taylor10@example.com', '$2a$12$qO3lclk3/AxutABhflvfBehURJNdxjJ/NIn5plZ9ADMFPdGP.rH3W', '2023-06-10 19:00:00.000', '2023-06-19 21:00:00.000');
+INSERT INTO public."user" (username, "password", created_at, login_at) VALUES('ivy.anderson11@example.com', '$2a$12$qO3lclk3/AxutABhflvfBehURJNdxjJ/NIn5plZ9ADMFPdGP.rH3W', '2023-06-11 20:00:00.000', '2023-06-20 22:00:00.000');
+INSERT INTO public."user" (username, "password", created_at, login_at) VALUES('jack.thomas12@example.com', '$2a$12$qO3lclk3/AxutABhflvfBehURJNdxjJ/NIn5plZ9ADMFPdGP.rH3W', '2023-06-12 21:00:00.000', '2023-06-21 23:00:00.000');
+INSERT INTO public."user" (username, "password", created_at, login_at) VALUES('karen.jackson13@example.com', '$2a$12$qO3lclk3/AxutABhflvfBehURJNdxjJ/NIn5plZ9ADMFPdGP.rH3W', '2023-06-13 22:00:00.000', '2023-06-22 00:00:00.000');
+INSERT INTO public."user" (username, "password", created_at, login_at) VALUES('larry.white14@example.com', '$2a$12$qO3lclk3/AxutABhflvfBehURJNdxjJ/NIn5plZ9ADMFPdGP.rH3W', '2023-06-14 23:00:00.000', '2023-06-23 01:00:00.000');
+INSERT INTO public."user" (username, "password", created_at, login_at) VALUES('mona.harris15@example.com', '$2a$12$qO3lclk3/AxutABhflvfBehURJNdxjJ/NIn5plZ9ADMFPdGP.rH3W', '2023-06-15 00:00:00.000', '2023-06-24 02:00:00.000');
+INSERT INTO public."user" (username, "password", created_at, login_at) VALUES('nate.martin16@example.com', '$2a$12$qO3lclk3/AxutABhflvfBehURJNdxjJ/NIn5plZ9ADMFPdGP.rH3W', '2023-06-16 01:00:00.000', '2023-06-25 03:00:00.000');
+INSERT INTO public."user" (username, "password", created_at, login_at) VALUES('olivia.thompson17@example.com', '$2a$12$qO3lclk3/AxutABhflvfBehURJNdxjJ/NIn5plZ9ADMFPdGP.rH3W', '2023-06-17 02:00:00.000', '2023-06-26 04:00:00.000');
+INSERT INTO public."user" (username, "password", created_at, login_at) VALUES('pete.lee18@example.com', '$2a$12$qO3lclk3/AxutABhflvfBehURJNdxjJ/NIn5plZ9ADMFPdGP.rH3W', '2023-06-18 03:00:00.000', '2023-06-27 05:00:00.000');
+INSERT INTO public."user" (username, "password", created_at, login_at) VALUES('quinn.walker19@example.com', '$2a$12$qO3lclk3/AxutABhflvfBehURJNdxjJ/NIn5plZ9ADMFPdGP.rH3W', '2023-06-19 04:00:00.000', '2023-06-28 06:00:00.000');
+INSERT INTO public."user" (username, "password", created_at, login_at) VALUES('rose.hall20@example.com', '$2a$12$qO3lclk3/AxutABhflvfBehURJNdxjJ/NIn5plZ9ADMFPdGP.rH3W', '2023-06-20 05:00:00.000', '2023-06-29 07:00:00.000');
+INSERT INTO public."user" (username, "password", created_at, login_at) VALUES('john.doe1@example.com', '$2a$12$qO3lclk3/AxutABhflvfBehURJNdxjJ/NIn5plZ9ADMFPdGP.rH3W', '2023-06-01 10:00:00.000', '2024-06-14 22:43:12.266');
+INSERT INTO public."user" (username, "password", created_at, login_at) VALUES('jane.smith2@example.com', '$2a$12$qO3lclk3/AxutABhflvfBehURJNdxjJ/NIn5plZ9ADMFPdGP.rH3W', '2023-06-02 11:00:00.000', '2024-06-15 02:48:06.829');
 
 -- Insert data into public.auth_token
 INSERT INTO public.auth_token (access_id, user_id, created_at, expired_at) VALUES
